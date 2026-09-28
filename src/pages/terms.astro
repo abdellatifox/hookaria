@@ -1,0 +1,87 @@
+---
+import TextPage from '../components/TextPage.astro';
+import { SITE } from '../lib/site';
+export const prerender = true;
+---
+
+<TextPage
+  title="Terms of Service"
+  eyebrow="Legal"
+  description={`The terms for using ${SITE.name} and its free crochet patterns.`}
+>
+  <p><em>Last updated: September 28, 2026</em></p>
+  <p>
+    Welcome to {SITE.name}. These Terms of Service ("Terms") apply to your use of hookaria.com (the "Site"). By using the
+    Site, you agree to these Terms. If you don't agree, please don't use the Site.
+  </p>
+
+  <h2>1. Using the Site</h2>
+  <p>
+    You may browse the Site and use its patterns for lawful purposes only. You agree not to misuse the Site — for example,
+    by trying to break into it, disrupting it, sending spam through its forms, or scraping its content in bulk.
+  </p>
+
+  <h2>2. Our content and your use of patterns</h2>
+  <p>
+    All patterns, written instructions, photos, illustrations and other content on the Site are owned by {SITE.name}
+    and protected by copyright.
+  </p>
+  <h3>You may</h3>
+  <ul>
+    <li>Use the patterns for free to make items for yourself, as gifts or for charity.</li>
+    <li>
+      Sell finished items you make from our patterns in small quantities (for example, at craft fairs or in a
+      handmade shop). Crediting {SITE.name} as the pattern source is appreciated.
+    </li>
+    <li>Share a link to any pattern page, along with one photo and a short description that credits {SITE.name}.</li>
+  </ul>
+  <h3>You may not</h3>
+  <ul>
+    <li>Copy, republish, translate or redistribute the written patterns, in full or in part, on other websites, social media or in print.</li>
+    <li>Sell, or give away as your own, the patterns themselves or our photos.</li>
+    <li>Use our photos to advertise your own products.</li>
+    <li>Mass-produce items from our patterns for commercial sale without our written permission.</li>
+  </ul>
+  <p>For any other use, please ask first through the <a href="/contact">contact page</a>.</p>
+
+  <h2>3. Things you send us</h2>
+  <p>
+    When you send us a message or subscribe to the newsletter, you confirm that the information is accurate and yours to
+    share. How we handle it is described in our <a href="/privacy">Privacy Policy</a>.
+  </p>
+
+  <h2>4. Patterns are provided "as is"</h2>
+  <p>
+    We write and test our patterns with care, but mistakes can happen, and results depend on your yarn, hook, tension
+    and skill. The Site and its content are provided "as is", without warranties of any kind. We don't guarantee that
+    any pattern is error-free or that your finished item will match the photos.
+  </p>
+  <p>
+    <strong>Safety:</strong> for items made for babies and young children, avoid small parts that could come loose,
+    choose child-safe materials, and always supervise use. You are responsible for the safety of items you make.
+  </p>
+
+  <h2>5. Limitation of liability</h2>
+  <p>
+    To the fullest extent allowed by law, {SITE.name} is not liable for any indirect, incidental or consequential damages,
+    or for any loss of materials, time or money, arising from your use of the Site or its patterns. Nothing in these
+    Terms limits any rights you have that cannot be limited under applicable law.
+  </p>
+
+  <h2>6. Links to other websites</h2>
+  <p>
+    The Site may link to other websites, such as yarn shops or tools. We don't control those sites and aren't responsible
+    for their content or practices.
+  </p>
+
+  <h2>7. Changes to the Site and these Terms</h2>
+  <p>
+    We may change, add or remove content on the Site at any time. We may also update these Terms; when we do, we'll
+    change the "Last updated" date above. If you keep using the Site after changes, you accept the updated Terms.
+  </p>
+
+  <h2>8. Contact</h2>
+  <p>
+    Questions about these Terms or about using our patterns? Get in touch through the <a href="/contact">contact page</a>.
+  </p>
+</TextPage>

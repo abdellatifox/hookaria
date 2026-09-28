@@ -1,0 +1,106 @@
+---
+import TextPage from '../components/TextPage.astro';
+import { SITE } from '../lib/site';
+export const prerender = true;
+---
+
+<TextPage
+  title="Privacy Policy"
+  eyebrow="Legal"
+  description={`How ${SITE.name} collects, uses and protects your information.`}
+>
+  <p><em>Last updated: September 28, 2026</em></p>
+  <p>
+    {SITE.name} ("we", "us", "our") runs the website at hookaria.com (the "Site"). This policy explains what
+    information we collect when you use the Site, why we collect it, and the choices you have. We keep things simple:
+    we collect as little as possible and never sell your data.
+  </p>
+
+  <h2>1. Information we collect</h2>
+  <h3>Information you give us</h3>
+  <ul>
+    <li>
+      <strong>Newsletter:</strong> if you subscribe, we store your email address so we can send you new patterns and
+      occasional updates.
+    </li>
+    <li>
+      <strong>Contact form:</strong> if you message us, we store the name, email address and message you submit so we
+      can read and reply to it.
+    </li>
+  </ul>
+  <p>You can browse and use every pattern on the Site without giving us any personal information.</p>
+
+  <h3>Information collected automatically</h3>
+  <p>
+    The Site is hosted on <strong>Cloudflare</strong>. Like any web host, Cloudflare processes technical request data —
+    such as your IP address, browser type, device information and the pages you request — to deliver the Site, keep it
+    fast and protect it from abuse and attacks. We do not use this data to identify or profile you.
+  </p>
+
+  <h2>2. Cookies and tracking</h2>
+  <p>
+    The Site does <strong>not</strong> use advertising cookies, analytics trackers or social-media tracking pixels.
+    Cloudflare may set strictly necessary security cookies to protect the Site from bots and malicious traffic. These
+    don't track you across other websites.
+  </p>
+
+  <h2>3. Third-party services</h2>
+  <ul>
+    <li>
+      <strong>Cloudflare</strong> — hosting, database and security.
+      <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare's privacy policy</a>.
+    </li>
+    <li>
+      <strong>Google Fonts</strong> — the Site loads its typefaces from Google, which receives your IP address when the
+      fonts are downloaded. <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a>.
+    </li>
+  </ul>
+  <p>If we add other services in the future (for example, analytics or ads), we'll update this page first.</p>
+
+  <h2>4. How we use your information</h2>
+  <ul>
+    <li>To send the newsletter you signed up for.</li>
+    <li>To read and respond to your messages.</li>
+    <li>To keep the Site running, secure and free of spam.</li>
+  </ul>
+  <p>We never sell, rent or trade your personal information.</p>
+
+  <h2>5. How long we keep it</h2>
+  <ul>
+    <li><strong>Newsletter emails:</strong> until you unsubscribe or ask us to remove you.</li>
+    <li><strong>Contact messages:</strong> only as long as needed to answer you and handle any follow-up.</li>
+  </ul>
+
+  <h2>6. Your rights</h2>
+  <p>
+    Depending on where you live (for example, under the GDPR in the EU/UK or privacy laws in other countries), you may
+    have the right to access, correct or delete your personal information, to object to its use, or to withdraw your
+    consent at any time. To do any of this — including unsubscribing from the newsletter — just send us a request through
+    the <a href="/contact">contact page</a>. We'll respond within 30 days.
+  </p>
+
+  <h2>7. Security</h2>
+  <p>
+    We use reasonable technical measures to protect your information, including encrypted (HTTPS) connections and
+    restricted access to our database. No method of transmission or storage is completely secure, but we work to keep
+    your data safe.
+  </p>
+
+  <h2>8. Children's privacy</h2>
+  <p>
+    The Site is intended for a general audience and is not directed at children under 13 (or under 16 in the EU). We do
+    not knowingly collect personal information from children. If you believe a child has sent us their information,
+    please <a href="/contact">contact us</a> and we'll delete it.
+  </p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>
+    We may update this policy from time to time. When we do, we'll change the "Last updated" date at the top of this
+    page. Significant changes will be highlighted on the Site.
+  </p>
+
+  <h2>10. Contact us</h2>
+  <p>
+    Questions about your privacy? Reach us any time via the <a href="/contact">contact page</a>.
+  </p>
+</TextPage>

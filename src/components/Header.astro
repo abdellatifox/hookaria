@@ -1,0 +1,80 @@
+---
+import Logo from './Logo.astro';
+import { CATEGORIES } from '../lib/site';
+
+const path = Astro.url.pathname;
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+
+<header class="site-header">
+  <div class="topbar" aria-hidden="true"></div>
+  <div class="wrap bar">
+    <Logo />
+
+    <nav aria-label="Main">
+      <ul class="menu">
+        <li><a href="/" aria-current={isActive('/') ? 'page' : undefined}>Home</a></li>
+        <li class="has-sub">
+          <details>
+            <summary class={isActive('/patterns') || isActive('/category') ? 'current' : ''}>Patterns</summary>
+            <ul class="sub">
+              <li><a href="/patterns">All patterns</a></li>
+              {CATEGORIES.map((c) => <li><a href={`/category/${c.slug}`}>{c.name}</a></li>)}
+            </ul>
+          </details>
+        </li>
+        <li><a href="/about" aria-current={isActive('/about') ? 'page' : undefined}>About</a></li>
+        <li><a href="/contact" aria-current={isActive('/contact') ? 'page' : undefined}>Contact</a></li>
+        <li>
+          <a href="/patterns#search" class="icon-link" aria-label="Search patterns">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Close the Patterns dropdown when clicking elsewhere or pressing Escape.
+  const details = document.querySelector<HTMLDetailsElement>('.has-sub details');
+  document.addEventListener('click', (e) => {
+    if (details?.open && !details.contains(e.target as Node)) details.open = false;
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && details?.open) {
+      details.open = false;
+      details.querySelector('summary')?.focus();
+    }
+  });
+</script>
+
+<style>
+  .site-header { background: var(--bg); border-bottom: 1px solid var(--line); position: relative; z-index: 20; }
+  .topbar { height: 5px; background: linear-gradient(90deg, var(--accent), var(--clay)); }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 76px; flex-wrap: wrap; padding-block: 8px; }
+  .menu { list-style: none; display: flex; align-items: center; gap: clamp(8px, 2.5vw, 30px); margin: 0; padding: 0; }
+  .menu > li > a, summary {
+    font-weight: 700; font-size: 0.95rem; color: var(--ink); text-decoration: none;
+    padding: 10px 2px; display: inline-flex; align-items: center; gap: 4px; cursor: pointer;
+  }
+  .menu a[aria-current='page'], summary.current { color: var(--accent-strong); }
+  .menu a:hover, summary:hover { color: var(--accent-strong); }
+  summary { list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: ''; width: 6px; height: 6px; border: solid currentColor; border-width: 0 2px 2px 0; transform: rotate(45deg) translateY(-2px); margin-left: 4px; }
+  .has-sub { position: relative; }
+  .sub {
+    position: absolute; right: 0; top: calc(100% + 6px); min-width: 210px; list-style: none; margin: 0; padding: 8px;
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: var(--shadow);
+  }
+  .sub a { display: block; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--ink-soft); font-size: 0.95rem; }
+  .sub a:hover { background: var(--surface); color: var(--ink); }
+  .icon-link { color: var(--ink); }
+  @media (max-width: 560px) {
+    .bar { justify-content: center; }
+    .menu { gap: 14px; }
+    .menu > li > a, summary { font-size: 0.9rem; }
+    .sub { right: auto; left: 50%; transform: translateX(-50%); }
+  }
+</style>
