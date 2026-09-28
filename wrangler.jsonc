@@ -9,6 +9,11 @@
     "directory": "./dist"
   },
   "observability": { "enabled": true },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "hookaria.com", "custom_domain": true },
+    { "pattern": "www.hookaria.com", "custom_domain": true }
+  ],
 
   // 1) npx wrangler d1 create hookaria-db   -> paste the database_id below
   "d1_databases": [
