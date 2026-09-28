@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "crochet-corner",
+  "name": "hookaria",
   "main": "./dist/_worker.js/index.js",
   "compatibility_date": "2025-08-01",
   "compatibility_flags": ["nodejs_compat"],
@@ -10,12 +10,12 @@
   },
   "observability": { "enabled": true },
 
-  // 1) npx wrangler d1 create crochet-db   -> paste the database_id below
+  // 1) npx wrangler d1 create hookaria-db   -> paste the database_id below
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "crochet-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_name": "hookaria-db",
+      "database_id": "77fbb690-bbf6-4d4e-8c1a-1195449d84dd",
       "migrations_dir": "migrations"
     }
   ],
@@ -24,7 +24,7 @@
   "kv_namespaces": [
     {
       "binding": "CACHE",
-      "id": "REPLACE_WITH_KV_NAMESPACE_ID"
+      "id": "f98edfb29a2b43e9aa7a32feffb7c08e"
     }
   ]
 
