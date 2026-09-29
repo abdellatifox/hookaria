@@ -19,6 +19,8 @@ export const CATEGORIES = [
   { slug: 'baby-items', name: 'Baby Items', tagline: 'Sweet & gentle' },
   { slug: 'clothing', name: 'Clothing', tagline: 'Wearable makes' },
   { slug: 'accessories', name: 'Accessories', tagline: 'Little details' },
+  { slug: 'footwear', name: 'Footwear', tagline: 'Cozy steps' },
+  { slug: 'seasonal', name: 'Seasonal', tagline: 'Makes for every season' },
 ] as const;
 
 export type CategorySlug = (typeof CATEGORIES)[number]['slug'];
