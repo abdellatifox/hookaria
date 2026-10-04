@@ -47,6 +47,7 @@ Yes! This pattern uses basic stitches, and you will learn how to create a flower
 - Make a petal: 4 dc in the same stitch, then sl st into the next stitch to secure the petal.
 
 ![Winter White Rose Crochet Headband Free Crochet Pattern](/images/patterns/winter-white-rose-crochet-headband-free-crochet-pattern-2.jpg)
+<p class="image-note"><small><em>Image shown for inspiration — your finished result may vary slightly.</em></small></p>
 
 ## Size and Gauge
 - Finished headband: 20 inches (51 cm) around, 3 inches (7.5 cm) wide.
