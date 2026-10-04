@@ -105,3 +105,4 @@ You can estimate about 1.5 to 2 hours for the entire project, depending on your 
 Want to create a complete set? Check out our range of patterns or try the matching earrings.
 
 ![Winter White Rose Bracelet Free Crochet Pattern](/images/patterns/winter-white-rose-bracelet-free-crochet-pattern-2.jpg)
+<p class="image-note"><small><em>Image shown for inspiration — your finished result may vary slightly.</em></small></p>
