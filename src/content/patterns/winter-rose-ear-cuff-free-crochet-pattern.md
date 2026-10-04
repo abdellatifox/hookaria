@@ -108,3 +108,4 @@ Before finishing, shape the cuff and try it on your ear. Adjust the curve for th
 Want to create a complete set? Check out our range of patterns or try the matching flower brooch.
 
 ![Winter Rose Ear Cuff Free Crochet Pattern](/images/patterns/winter-rose-ear-cuff-free-crochet-pattern-2.jpg)
+<p class="image-note"><small><em>Image shown for inspiration — your finished result may vary slightly.</em></small></p>
