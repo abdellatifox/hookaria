@@ -1,7 +1,7 @@
 ---
 title: "Shell Stitch Baby Blanket Free Crochet Pattern"
 excerpt: "This easy shell stitch baby blanket pattern is perfect for beginners, featuring a warm and cozy design for your little one."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/shell-stitch-baby-blanket-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
