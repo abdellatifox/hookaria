@@ -1,7 +1,7 @@
 ---
 title: "Peach Blossom Granny Square Baby Blanket Free Crochet Pattern"
 excerpt: "A free, beginner-friendly pattern with straightforward steps for a charming granny square baby blanket."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/peach-blossom-granny-square-baby-blanket-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
