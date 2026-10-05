@@ -1,7 +1,7 @@
 ---
 title: "Cream Cable Knit Look Baby Hoodie Free Crochet Pattern"
 excerpt: "A free crochet pattern for a cozy, stylish baby hoodie that mimics knitted cables, perfect for chilly months."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/cream-cable-knit-look-baby-hoodie-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
