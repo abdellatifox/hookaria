@@ -1,7 +1,7 @@
 ---
 title: "Sunshine Yellow Butterfly Baby Dress Free Crochet Pattern"
 excerpt: "A lovely baby dress pattern featuring a bright sunshine yellow hue and a sweet butterfly design, perfect for beginners."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/sunshine-yellow-butterfly-baby-dress-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
