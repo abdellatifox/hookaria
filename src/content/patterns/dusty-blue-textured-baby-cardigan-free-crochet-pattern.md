@@ -1,7 +1,7 @@
 ---
 title: "Dusty Blue Textured Baby Cardigan Free Crochet Pattern"
 excerpt: "A lovely, easy pattern for a cozy baby cardigan in a charming dusty blue color, perfect for keeping little ones warm."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/dusty-blue-textured-baby-cardigan-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
