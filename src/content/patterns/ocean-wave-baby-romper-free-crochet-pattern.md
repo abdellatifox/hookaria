@@ -1,7 +1,7 @@
 ---
 title: "Ocean Wave Baby Romper Free Crochet Pattern"
 excerpt: "This adorable baby romper features a playful wave stitch pattern, making it perfect for warm weather outings."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/ocean-wave-baby-romper-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
