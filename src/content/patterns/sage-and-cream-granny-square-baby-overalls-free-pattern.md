@@ -1,7 +1,7 @@
 ---
 title: "Sage and Cream Granny Square Baby Overalls Free Pattern"
 excerpt: "A free pattern for adorable granny square baby overalls, featuring sage and cream colors, perfect for stylish infants."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/sage-and-cream-granny-square-baby-overalls-free-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
