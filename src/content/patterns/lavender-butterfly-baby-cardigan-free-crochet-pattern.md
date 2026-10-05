@@ -1,7 +1,7 @@
 ---
 title: "Lavender Butterfly Baby Cardigan Free Crochet Pattern"
 excerpt: "A charming baby cardigan pattern featuring a delightful butterfly design, perfect for spring outfits."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/lavender-butterfly-baby-cardigan-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
