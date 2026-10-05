@@ -1,7 +1,7 @@
 ---
 title: "Neutral Boho Baby Romper Free Crochet Pattern"
 excerpt: "A cozy and stylish baby romper pattern, perfect for little ones aged 6-12 months, featuring easy techniques and colorful options."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/neutral-boho-baby-romper-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
