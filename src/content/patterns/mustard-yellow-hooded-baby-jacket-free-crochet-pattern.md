@@ -1,7 +1,7 @@
 ---
 title: "Mustard Yellow Hooded Baby Jacket Free Crochet Pattern"
 excerpt: "This cozy hooded baby jacket is designed to keep little ones warm while looking adorable. Featuring a bright mustard yellow color, this jacket is perfect for chilly days."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/mustard-yellow-hooded-baby-jacket-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
