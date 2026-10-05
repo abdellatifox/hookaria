@@ -1,7 +1,7 @@
 ---
 title: "Coral Reef Baby Crochet Pinafore Free Pattern"
 excerpt: "A vibrant and playful crochet pinafore dress for babies, perfect for sunny days. Easy to follow with clear instructions."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/coral-reef-baby-crochet-pinafore-free-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
