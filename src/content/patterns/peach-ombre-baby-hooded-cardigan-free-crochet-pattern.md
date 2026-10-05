@@ -1,7 +1,7 @@
 ---
 title: "Peach Ombre Baby Hooded Cardigan Free Crochet Pattern"
 excerpt: "A delightful, easy crochet pattern for a stylish baby cardigan with a cozy hood and beautiful ombre colors."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/peach-ombre-baby-hooded-cardigan-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
