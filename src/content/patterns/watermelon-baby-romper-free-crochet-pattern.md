@@ -1,7 +1,7 @@
 ---
 title: "Watermelon Baby Romper Free Crochet Pattern"
 excerpt: "A free, beginner-friendly pattern for a cute watermelon-themed baby romper, perfect for summer!"
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/watermelon-baby-romper-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
