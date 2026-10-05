@@ -1,7 +1,7 @@
 ---
 title: "Sunset Coral Reef Baby Blanket Free Crochet Pattern"
 excerpt: "Create a vibrant, textured baby blanket inspired by coral reef colors with our easy crochet pattern."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/sunset-coral-reef-baby-blanket-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
