@@ -1,7 +1,7 @@
 ---
 title: "Blush Pink Strawberry Baby Romper Set Free Crochet Pattern"
 excerpt: "A lovely romper set for infants featuring a playful strawberry design, perfect for warm-weather outings."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/blush-pink-strawberry-baby-romper-set-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
