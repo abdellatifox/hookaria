@@ -1,7 +1,7 @@
 ---
 title: "Cream Lamb Baby Romper Set Free Crochet Pattern"
 excerpt: "A free crochet pattern for an adorable baby romper set, complete with lamb appliqués, suitable for beginners."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/cream-lamb-baby-romper-set-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
