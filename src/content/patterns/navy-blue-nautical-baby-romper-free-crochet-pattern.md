@@ -1,7 +1,7 @@
 ---
 title: "Navy Blue Nautical Baby Romper Free Crochet Pattern"
 excerpt: "A charming one-piece nautical romper for infants, featuring stripes and an anchor motif, perfect for adventurous little ones."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/navy-blue-nautical-baby-romper-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
