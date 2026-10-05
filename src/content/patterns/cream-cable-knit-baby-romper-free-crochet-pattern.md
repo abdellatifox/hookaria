@@ -1,7 +1,7 @@
 ---
 title: "Cream Cable Knit Baby Romper Free Crochet Pattern"
 excerpt: "A cozy and stylish crocheted romper for infants, featuring a lovely cable stitch pattern."
-category: "baby-kids"
+category: "baby-items"
 cover: "/images/patterns/cream-cable-knit-baby-romper-free-crochet-pattern.jpg"
 publishDate: 2026-10-05
 featured: false
