@@ -12,7 +12,13 @@ const patterns = defineCollection({
   schema: z.object({
     title: z.string(),
     excerpt: z.string(),
-    category: z.enum(['accessories', 'baby-kids', 'clothing', 'blankets', 'footwear', 'home-decor', 'seasonal']),
+    // The site's own categories (CATEGORIES in src/lib/site.ts), plus the older
+    // 'baby-kids' that src/lib/patterns.ts maps to 'baby-items'. A value missing
+    // here fails the whole build, so keep this list in step with CATEGORIES.
+    category: z.enum([
+      'blankets', 'hats-beanies', 'scarves', 'bags', 'home-decor', 'baby-items',
+      'clothing', 'accessories', 'footwear', 'seasonal', 'baby-kids',
+    ]),
     cover: z.string(),
     publishDate: z.coerce.date(),
     featured: z.boolean().default(false),
